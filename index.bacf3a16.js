@@ -1,0 +1,2 @@
+let e;const t=document.querySelector("#box");let n=1/0;function o(e,t){return Math.floor(Math.random()*(t-e+1)+e)}t.onmouseenter=()=>{if(e){let t=Date.now()-e;t<n&&(n=t),e=null,document.querySelector("#result").innerText="Best: "+n+"ms"}else e=Date.now();!function(){let e=window.innerWidth-50,n=window.innerHeight-50,l=o(0,e),r=o(50,n);t.style.top=r+"px",t.style.left=l+"px"}()};
+//# sourceMappingURL=index.bacf3a16.js.map
